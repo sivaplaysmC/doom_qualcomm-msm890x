@@ -8,4 +8,4 @@
 
 Tested on [Jiophone lyf F220b](https://www.flipkart.com/jio-f220b/p/itm274f44dba8042).
 
-Check [[./BUILDING.md]] for building instructions.
+Check [BUILDING.md](./BUILDING.md) for building instructions.
