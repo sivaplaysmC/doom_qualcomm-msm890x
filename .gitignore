@@ -1,0 +1,21 @@
+**
+
+!.gitignore
+
+!*.c
+!*.h
+!Makefile
+
+
+# From PureDOOM
+doom1.wad
+
+# For build environ
+!flake.nix
+!flake.lock
+
+# docs
+!*.md
+
+# pic
+!doom_on_f220b.jpeg
