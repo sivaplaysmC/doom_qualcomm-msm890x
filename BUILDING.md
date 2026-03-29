@@ -22,3 +22,16 @@ export CFLAGS="-mcpu=cortex-a7 -mfpu=neon-vfpv4 -mfloat-abi=softfp -mthumb -Os -
 export LDFLAGS="-Wl,--gc-sections -Wl,--fix-cortex-a8"
 make doom
 ```
+
+# Running it
+
+Get a rootshell on your device, and stop the b2g service.
+
+```sh
+stop b2g
+```
+
+Once that is done, find a way to drop the compiled executable (`doom`) and `doom1.wad` into the device.
+I prefer `/data/local/tmp`.
+
+set `HOME=/data/local/tmp` and run the executable.
